@@ -1,0 +1,56 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.card
+{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px; 
+}
+
+.card-header
+{
+    border-radius: 31px;
+    background-image: linear-gradient(#DBEFEF, #C9AB96);
+}
+
+.card-body
+{
+    padding: 20px;
+}
+
+.form-control
+{
+    border-radius: 5px;
+}
+
+.btn
+{
+    border-color: #f5f5f5;
+    background-color: #C9AB96;
+    color: black;
+}
+
+.btn:hover
+{
+    
+    background-color: #7b564c;
+    color: #fff;
+}
+
+.btn-align
+{
+    text-align: center;
+}
+
+.link
+{
+    color: black;
+    text-decoration: none;
+
+}
+
+.link:hover
+{
+    color: palevioletred;
+}

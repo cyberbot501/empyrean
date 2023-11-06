@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/css/auth.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div class="card">
+            <div class="card-header">
+              <h1><b>Sign Up</b></h1>
+              <p>Enter your details</p>
+
+              <div id="error" style="color: red; font-size: 12px"></div>
+
+              <div class="card-body">
+                <form id="signupForm">
+                  <div class="mb-3">
+                    <label for="fullname" class="form-label">Fullname</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="fullName"
+                      placeholder="Brendan Jones"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="xylu"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input
+                      type="password"
+                      class="form-control"
+                      id="password"
+                      placeholder="Enter your password"
+                      required
+                    />
+                    <p style="color: red" id="error-message"></p>
+                  </div>
+                  <div class="btn-align">
+                    <button type="submit" class="btn" id="signupForm">
+                      Sign up
+                    </button>
+                  </div>
+                  <br />
+                  <p>
+                    Already have an account?
+                    <b><a href="/login" class="link">LOGIN</a></b>
+                  </p>
+                  <p>
+                    <b
+                      ><a href="forgot.html" class="link">Forgot password</a></b
+                    >
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Javascript -->
+    <script>
+      const errorContainer = document.querySelector("#error");
+      const form = document.querySelector("form");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const credentials = {
+          name: e.target[0].value,
+          email: e.target[1].value,
+          password: e.target[2].value,
+          password_confirmation: this.password.value,
+        };
+
+        register(credentials);
+      });
+
+      function register(credentials) {
+
+        setErrorMessage("");
+
+        let errorMessage;
+        fetch("http://empyrean.washrytelaundry.com.ng/api/v1/auth/register", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(credentials),
+        })
+          .then((res) => {
+            // console.log(res)
+
+            // res.text().then((res) => console.log(res));
+
+            if (res.ok) {
+              res
+                .json()
+                .then((res) => {
+                  localStorage.setItem("token", res.data.api_token);
+                  window.location.href = "/products";
+                })
+                .catch((err) => {
+                //   console.log(err);
+                  let msg = "Something went wrong";
+                  setErrorMessage(msg);
+                });
+            } else
+              res
+                .json()
+                .then((res) => {
+                  errorMessage = res?.error?.message;
+                  setErrorMessage(errorMessage);
+                })
+                .catch((err) => {
+                  let msg = "Something went wrong";
+                  setErrorMessage(msg);
+                });
+          })
+          .catch((err) => {
+            let msg = "Something went wrong";
+            setErrorMessage(msg);
+          });
+      }
+
+      function setErrorMessage(msg) {
+        errorContainer.innerText = `${msg}`;
+      }
+    </script>
+  </body>
+</html>
