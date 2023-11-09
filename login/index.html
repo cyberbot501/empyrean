@@ -53,7 +53,7 @@
                   <br />
                   <p>
                     Don't have an account?
-                    <b><a href="/register" class="link">LOGIN</a></b>
+                    <b><a href="/register" class="link">Sign Up</a></b>
                   </p>
                   <p>
                     <b
@@ -102,6 +102,7 @@
                 .then((res) => {
                   localStorage.setItem("token", res.data.api_token);
                   window.location.href = "/product_page";
+               
                 })
                 .catch((err) => {
                   // console.log(err);
