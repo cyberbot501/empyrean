@@ -174,8 +174,8 @@
 }
 
 .product-grid img{
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
 }
 
 .product-container{
@@ -222,18 +222,21 @@
 .product-grid h3{
     font-weight: 600;
     font-size: 20px;
+    text-align: center;
 }
 
 .product-grid p{
     text-align: center;
     font-weight: 400;
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 10px;
+    max-height: 10px;
 }
 
 .product-grid .star img{
     width: 20px;
     height: 20px;
+    margin-top: 100px;
 }
 
 .product-grid button{
@@ -264,7 +267,7 @@
     border: 1px solid var(--product-bg);
     background: var(--product-bg);
     border-radius: 28px;
-    height: 500px;
+    height: 550px;
     row-gap: 1rem;
 }
 
@@ -280,6 +283,7 @@
     justify-content: center;
     font-weight: 500;
     margin-bottom: 70px;
+    text-align: center;
 }
 
 .customzed-container .next button{
@@ -298,7 +302,7 @@
     justify-content: center;
     display: flex;
     gap: 10px;
-    margin-top: 93rem;
+    margin-top: 142rem;
     margin-bottom: 7rem;
 }
 

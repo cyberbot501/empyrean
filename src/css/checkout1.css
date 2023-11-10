@@ -14,16 +14,16 @@
   
   .checkout-screen .overlap-group {
     position: relative;
-    width: 1361px;
+    width: 100%;
     height: 912px;
     top: 56px;
-    left: 39px;
+    left: 0;
     background-color: #7acbce1c;
   }
   
   .checkout-screen .group {
     position: relative;
-    width: 1345px;
+    width: 13px;
     height: 887px;
     top: 10px;
     left: 10px;
@@ -61,7 +61,7 @@
     align-items: flex-start;
     position: absolute;
     top: 0;
-    left: 881px;
+    left: 860px;
     border-radius: 10px;
   }
   
@@ -178,7 +178,7 @@
   
   .checkout-screen .shipping-icon {
     display: flex;
-    width: 267px;
+    width: 200px;
     align-items: center;
     gap: 24px;
     padding: 9px 5px 9px 32px;
@@ -227,7 +227,7 @@
   
   .checkout-screen .shipping-icon-2 {
     display: flex;
-    width: 267px;
+    width: 200px;
     align-items: center;
     gap: 24px;
     padding: 9px 5px 9px 32px;
@@ -243,7 +243,7 @@
   
   .checkout-screen .billing-icon {
     display: flex;
-    width: 267px;
+    width: 200px;
     align-items: center;
     gap: 24px;
     padding: 9px 32px;
@@ -303,7 +303,7 @@
   .checkout-screen .first-name {
     position: relative;
     width: fit-content;
-    margin-top: -1px;
+    margin-top: px;
     font-family: "Poppins-Medium", Helvetica;
     font-weight: 500;
     color: transparent;
@@ -333,8 +333,102 @@
   
   .checkout-screen .text-wrapper-11 {
     position: absolute;
-    top: 41px;
-    left: 19px;
+    top: 49px;
+    left: 0px;
+    height: 39px;
+    border-radius: 6px;
+    border: 1px solid #7acbce8a;
+    background: #ffffff;
+    width: 390px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #72787b8f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+
+  .checkout-screen .text-wrapper-11-1 {
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    height: 39px;
+    border-radius: 6px;
+    border: none;
+    background: none;
+    width: 844px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #72787b8f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+
+  .checkout-screen .text-wrapper-11-2 {
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    height: 39px;
+    border-radius: 6px;
+    border: none;
+    background: none;
+    width: 263px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #72787b8f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+
+  .checkout-screen .text-wrapper-11-3 {
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    height: 39px;
+    border-radius: 6px;
+    border: none;
+    background: none;
+    width: 263px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #72787b8f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+
+  .checkout-screen .text-wrapper-11-4 {
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    height: 39px;
+    border-radius: 6px;
+    border: none;
+    background: none;
+    width: 263px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #72787b8f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  .checkout-screen .text-wrapper-11-5 {
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    height: 39px;
+    border-radius: 6px;
+    border: none;
+    background: none;
+    width: 848px;
     font-family: "Poppins-Medium", Helvetica;
     font-weight: 500;
     color: #72787b8f;
@@ -383,6 +477,7 @@
     top: 336px;
     left: 0;
   }
+
   
   .checkout-screen .text-wrapper-12 {
     position: relative;
@@ -396,9 +491,24 @@
     line-height: 22.3px;
     white-space: nowrap;
   }
+
+  .checkout-screen .text-wrapper-12-1{
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #160b03a8;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+    top: 612px;
+    left: 40px;
+  }
   
   .checkout-screen .rectangle-4 {
-    width: 856px;
+    width: 846px;
     position: relative;
     height: 40px;
     background-color: #ffffff;
@@ -489,6 +599,7 @@
     background-color: #000000d9;
     border-radius: 3.28px;
     overflow: hidden;
+    cursor: pointer;
   }
   
   .checkout-screen .arrow {
@@ -523,6 +634,7 @@
     background-color: #7acbce;
     border-radius: 3.13px;
     overflow: hidden;
+    cursor: pointer;
   }
   
   .checkout-screen .transport {
@@ -579,8 +691,8 @@
   
   .checkout-screen .text-wrapper-16 {
     position: absolute;
-    top: 49px;
-    left: 19px;
+    top: 31px;
+    left: 1px;
     font-family: "Poppins-Medium", Helvetica;
     font-weight: 500;
     color: #00000026;
@@ -588,6 +700,10 @@
     letter-spacing: 0;
     line-height: 22.3px;
     white-space: nowrap;
+    height: 142px;
+    width: 850px;
+    border: none;
+    background: transparent;
   }
   
   .checkout-screen .edit-edit-pencil {

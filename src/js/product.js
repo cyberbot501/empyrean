@@ -20,7 +20,7 @@
 
 
 const productcontainer= document.getElementById('product-containers');
-console.log(product-containers)
+console.log(productcontainer)
 // const productNameElement = document.getElementById('product-name');
 // const productDescriptionElement = document.getElementById('product-description');
 // const productPriceElement = document.getElementById('product-price');
@@ -56,8 +56,8 @@ fetch("http://empyrean.washrytelaundry.com.ng/api/v1/products",
               <button>ADD TO CART</button>
           </div>
       </div>`
-      // console.log(product)
-      productcontainer.innerHTML =+ product
+      // console.log(productcontainer?.innerHTML)
+      productcontainer.innerHTML += product
         })
         // localStorage.setItem("token", res.data.api_token);
         // window.location.href = "/product_page";

@@ -14,10 +14,10 @@
   
   .checkout-screen .overlap-group {
     position: relative;
-    width: 1361px;
+    width: 100%;
     height: 763px;
     top: 56px;
-    left: 39px;
+    left: 0px;
     background-color: #7acbce1c;
   }
   
@@ -33,7 +33,7 @@
   
   .checkout-screen .rectangle {
     position: relative;
-    width: 407px;
+    width: 390px;
     height: 138.04px;
     background-color: #ffffff;
     border-radius: 5.69px;
@@ -137,7 +137,7 @@
     position: absolute;
     width: 18px;
     height: 18px;
-    top: -1px;
+    top: -5px;
     left: -3px;
   }
   
@@ -248,7 +248,7 @@
     align-items: flex-start;
     position: absolute;
     top: 10px;
-    left: 891px;
+    left: 865px;
     border-radius: 10px;
   }
   
@@ -365,7 +365,7 @@
   
   .checkout-screen .shipping-icon {
     display: flex;
-    width: 267px;
+    width: 200px;
     align-items: center;
     gap: 24px;
     padding: 9px 5px 9px 32px;
@@ -425,6 +425,7 @@
     background-color: #000000d9;
     border-radius: 3.28px;
     overflow: hidden;
+    cursor: pointer;
   }
   
   .checkout-screen .arrow {
@@ -459,6 +460,7 @@
     background-color: #7acbce;
     border-radius: 3.13px;
     overflow: hidden;
+    cursor: pointer;
   }
   
   .checkout-screen .transport {
@@ -482,7 +484,7 @@
   
   .checkout-screen .shipping-icon-2 {
     display: flex;
-    width: 267px;
+    width: 200px;
     align-items: center;
     gap: 24px;
     padding: 9px 5px 9px 32px;
@@ -498,7 +500,7 @@
   
   .checkout-screen .billing-icon {
     display: flex;
-    width: 267px;
+    width: 200px;
     align-items: center;
     gap: 21px;
     padding: 9px 32px;
