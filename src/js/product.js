@@ -20,6 +20,7 @@
 
 
 const productcontainer= document.getElementById('product-containers');
+console.log(product-containers)
 // const productNameElement = document.getElementById('product-name');
 // const productDescriptionElement = document.getElementById('product-description');
 // const productPriceElement = document.getElementById('product-price');
@@ -35,7 +36,7 @@ fetch("http://empyrean.washrytelaundry.com.ng/api/v1/products",
     res
       .json()
       .then((res) => {
-        productcontainer
+        // productcontainer
         console.log(res)
         res.data.map((item)=> {
           let product = `<div class="products">
@@ -56,7 +57,7 @@ fetch("http://empyrean.washrytelaundry.com.ng/api/v1/products",
           </div>
       </div>`
       // console.log(product)
-      productcontainer.innerHTML += product
+      productcontainer.innerHTML =+ product
         })
         // localStorage.setItem("token", res.data.api_token);
         // window.location.href = "/product_page";
