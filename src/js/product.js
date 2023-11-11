@@ -53,7 +53,7 @@ fetch("http://empyrean.washrytelaundry.com.ng/api/v1/products",
                   <img src="/public/asset/imges/Star 5.svg" alt="">
               </div>
               <h3 id="product-price">${item.price}</h3>
-              <button>ADD TO CART</button>
+              <button id="show-popup">ADD TO CART</button>
           </div>
       </div>`
       // console.log(productcontainer?.innerHTML)
@@ -71,19 +71,59 @@ fetch("http://empyrean.washrytelaundry.com.ng/api/v1/products",
 });
 
 
-// Retrieve the username from the cookie
-const username = getCookie('username');
+// // Retrieve the username from the cookie
+// const username = getCookie('username');
 
-// Display the username on the page
-if (username) {
-    document.body.innerHTML += `<p>Hello, ${username}!</p>`;
-} else {
-    // Redirect to the login page if the username is not found
-    window.location.href = '/login';
-}
+// // Display the username on the page
+// if (username) {
+//     document.body.innerHTML += `<p>Hello, ${username}!</p>`;
+// } else {
+//     // Redirect to the login page if the username is not found
+//     window.location.href = '/login';
+// }
 
-// Function to get a cookie by name
-function getCookie(name) {
-    const match = document.cookie.match(new RegExp(`${name}=([^;]+)`));
-    return match ? match[1] : null;
-}
+// // Function to get a cookie by name
+// function getCookie(name) {
+//     const match = document.cookie.match(new RegExp(`${name}=([^;]+)`));
+//     return match ? match[1] : null;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const showPopupButton = document.getElementById('show-popup');
+  const popupBackground = document.getElementById('popup-background');
+  const popup = document.getElementById('popup');
+  const closePopupButton = document.getElementById('close-popup');
+
+  // Show the popup and background
+  showPopupButton.addEventListener('click', function () {
+      popupBackground.style.display = 'block';
+      popup.style.display = 'block';
+  });
+
+  // Close the popup and background
+  closePopupButton.addEventListener('click', function () {
+      popupBackground.style.display = 'none';
+      popup.style.display = 'none';
+  });
+
+  // Close the popup and background if clicked outside the content
+  window.addEventListener('click', function (event) {
+      if (event.target === popupBackground) {
+          popupBackground.style.display = 'none';
+          popup.style.display = 'none';
+      }
+  });
+});

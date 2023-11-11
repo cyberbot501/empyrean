@@ -202,7 +202,7 @@
     height: 40px;
     border-radius: 20px;
     border: none;
-    background: var(--cart-box);
+    background: #ffffff;
     font-family: 'podkova'sans-serif;
     font-weight: 400;
     cursor: pointer;
@@ -394,6 +394,103 @@
 
 .footer .footer-u{
     margin-left: 20rem;
+}
+
+
+
+.cart-container .cart-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cart-container{
+    display: flex;
+    gap: 5px;
+}
+
+.cart-container .details .sizes button{
+    border: none;
+    background: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.cart-container .details .sizes{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+.cart-container .details .type{
+    display: flex;
+    gap: 30px;
+}
+
+.cart-container .details .type select{
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+}
+
+.cart-container .details .quntity{
+    display: flex;
+    gap: 30px;
+}
+
+.cart-container .details .quntity input{
+    border: none;
+    border-radius: 6px;
+    width: 200px;
+}
+
+.cart-container .details .add{
+    gap: 100px;
+}
+
+
+
+.popup-container {
+    position: relative;
+}
+
+.popup-background {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff; /* Semi-transparent black background for the blur effect */
+    backdrop-filter: blur(10px); /* CSS backdrop-filter for blur effect */
+   
+}
+
+.popup {
+    position: fixed;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--product-bg);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 2; /* Ensure the popup is above the background */
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+}
+
+.popup-container button {
+    z-index: 1; /* Ensure the button is below the popup */
 }
 
 

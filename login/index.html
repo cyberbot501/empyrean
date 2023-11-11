@@ -103,7 +103,7 @@
                   localStorage.setItem("token", res.data.api_token);
                   window.location.href = "/product_page";
                   document.cookie = `credentials=${username}`;
-               
+                  
                 })
                 .catch((err) => {
                   // console.log(err);
