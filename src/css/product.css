@@ -447,7 +447,13 @@
 }
 
 .cart-container .details .add{
-    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.cart-container .details .add button{
+
 }
 
 

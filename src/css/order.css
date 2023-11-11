@@ -1,0 +1,816 @@
+.order-details-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .order-details-page .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1158px;
+    position: relative;
+  }
+  
+  .order-details-page .overlap {
+    position: absolute;
+    width: 1351px;
+    height: 668px;
+    top: 63px;
+    left: 45px;
+  }
+  
+  .order-details-page .rectangle {
+    position: absolute;
+    width: 1350px;
+    height: 668px;
+    top: 0;
+    left: 0;
+    background-color: #7acbce1c;
+  }
+  
+  .order-details-page .text-wrapper {
+    position: absolute;
+    top: 231px;
+    left: 49px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .order-details {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 169px;
+    position: absolute;
+    top: 131px;
+    left: 49px;
+  }
+  
+  .order-details-page .frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .order-details-page .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #160b03bd;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .frame-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    height: 68px;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .order-details-page .frame-2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .order-details-page .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #a0a3a4;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .frame-3 {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .order-details-page .img {
+    position: relative;
+    width: 51px;
+    height: 51px;
+  }
+  
+  .order-details-page .div-wrapper {
+    padding: 10px 10px 10px 0px;
+    display: inline-flex;
+    flex-direction: column;
+    height: 68px;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .order-details-page .oct-PM {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .span {
+    color: #72787b;
+  }
+  
+  .order-details-page .text-wrapper-5 {
+    color: #72787b8f;
+    font-size: 15px;
+  }
+  
+  .order-details-page .location {
+    position: relative;
+    width: 47px;
+    height: 47px;
+  }
+  
+  .order-details-page .frame-4 {
+    padding: 10px;
+    margin-left: -9px;
+    display: inline-flex;
+    flex-direction: column;
+    height: 68px;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .order-details-page .product-details {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 307px;
+    left: 1px;
+  }
+  
+  .order-details-page .div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 847px;
+    height: 79px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 5px 0px 0px;
+    position: relative;
+  }
+  
+  .order-details-page .frame-5 {
+    position: relative;
+    width: 847px;
+    height: 79px;
+    margin-right: -5px;
+  }
+  
+  .order-details-page .rectangle-2 {
+    position: absolute;
+    width: 847px;
+    height: 79px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d93b;
+  }
+  
+  .order-details-page .line {
+    position: absolute;
+    width: 847px;
+    height: 1px;
+    top: 78px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .order-details-page .text-wrapper-6 {
+    left: 47px;
+    position: absolute;
+    top: 27px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .text-wrapper-7 {
+    left: 424px;
+    position: absolute;
+    top: 27px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .text-wrapper-8 {
+    left: 745px;
+    position: absolute;
+    top: 27px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .text-wrapper-9 {
+    left: 601px;
+    position: absolute;
+    top: 27px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .order {
+    position: relative;
+    width: 847px;
+    height: 79px;
+  }
+  
+  .order-details-page .navbar {
+    display: inline-flex;
+    flex-direction: column;
+    height: 79px;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .order-details-page .rectangle-3 {
+    position: relative;
+    width: 847px;
+    height: 79px;
+    background-color: #ffffff;
+  }
+  
+  .order-details-page .line-2 {
+    position: relative;
+    width: 847px;
+    height: 1px;
+    margin-top: -2px;
+    object-fit: cover;
+  }
+  
+  .order-details-page .frame-6 {
+    position: relative;
+    width: 847px;
+    height: 79px;
+    margin-bottom: -79px;
+    margin-top: -2px;
+  }
+  
+  .order-details-page .green-color-hoodie {
+    position: absolute;
+    top: 16px;
+    left: 81px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 400;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+  }
+  
+  .order-details-page .text-wrapper-10 {
+    font-weight: 600;
+  }
+  
+  .order-details-page .text-wrapper-11 {
+    font-family: "Poppins-Regular", Helvetica;
+  }
+  
+  .order-details-page .text-wrapper-12 {
+    position: absolute;
+    top: 16px;
+    left: 424px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #a0a3a4;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .text-wrapper-13 {
+    position: absolute;
+    top: 16px;
+    left: 745px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #a0a3a4;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .text-wrapper-14 {
+    top: 16px;
+    left: 601px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #a0a3a4;
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .rectangle-4 {
+    position: absolute;
+    width: 41px;
+    height: 54px;
+    top: 12px;
+    left: 26px;
+  }
+  
+  .order-details-page .rectangle-5 {
+    position: absolute;
+    width: 847px;
+    height: 79px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .order-details-page .order-summary {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 307px;
+    left: 889px;
+  }
+  
+  .order-details-page .order-2 {
+    display: flex;
+    flex-direction: column;
+    width: 460px;
+    height: 67px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 5px 0px 0px;
+    position: relative;
+  }
+  
+  .order-details-page .frame-7 {
+    position: relative;
+    width: 860px;
+    flex: 0 0 auto;
+    margin-right: -405px;
+  }
+  
+  .order-details-page .rectangle-6 {
+    position: absolute;
+    width: 460px;
+    height: 67px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d93b;
+  }
+  
+  .order-details-page .line-3 {
+    position: absolute;
+    width: 460px;
+    height: 1px;
+    top: 66px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .order-details-page .text-wrapper-15 {
+    position: absolute;
+    top: 18px;
+    left: 47px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .blank-black-male {
+    position: relative;
+    width: 36px;
+    height: 39px;
+  }
+  
+  .order-details-page .frame-8 {
+    position: relative;
+    width: 860px;
+    flex: 0 0 auto;
+    margin-bottom: -5px;
+    margin-right: -405px;
+  }
+  
+  .order-details-page .rectangle-7 {
+    position: absolute;
+    width: 460px;
+    height: 67px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .order-details-page .text-wrapper-16 {
+    position: absolute;
+    top: 21px;
+    left: 47px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .text-wrapper-17 {
+    top: 21px;
+    left: 323px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #a0a3a4;
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .text-wrapper-18 {
+    top: 21px;
+    left: 323px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #160b03a8;
+    position: absolute;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .order-number-ID {
+    display: flex;
+    flex-direction: column;
+    width: 1350px;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 0;
+    left: 1px;
+  }
+  
+  .order-details-page .frame-9 {
+    position: relative;
+    width: 1356px;
+    flex: 0 0 auto;
+    margin-right: -6px;
+  }
+  
+  .order-details-page .rectangle-8 {
+    position: absolute;
+    width: 1349px;
+    height: 79px;
+    top: 0;
+    left: 0;
+    background-color: #d4eeef;
+  }
+  
+  .order-details-page .line-4 {
+    position: absolute;
+    width: 1350px;
+    height: 2px;
+    top: 78px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .order-details-page .text-wrapper-19 {
+    position: absolute;
+    top: 27px;
+    left: 48px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .text-wrapper-20 {
+    top: 759px;
+    left: 46px;
+    position: absolute;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .text-wrapper-21 {
+    position: absolute;
+    top: 759px;
+    left: 509px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .text-wrapper-22 {
+    position: absolute;
+    top: 759px;
+    left: 973px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .shipping-info-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 812px;
+    left: 46px;
+  }
+  
+  .order-details-page .rectangle-9 {
+    position: relative;
+    width: 424px;
+    height: 302px;
+    background-color: #7acbce1c;
+  }
+  
+  .order-details-page .frame-10 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+    position: absolute;
+    top: 33px;
+    left: 48px;
+  }
+  
+  .order-details-page .text-wrapper-23 {
+    position: relative;
+    width: 168px;
+    height: 23px;
+    margin-top: -1px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .p {
+    position: relative;
+    width: 375px;
+    height: 49px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+  }
+  
+  .order-details-page .text-wrapper-24 {
+    position: relative;
+    width: 375px;
+    height: 21px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .billing-info-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 812px;
+    left: 509px;
+  }
+  
+  .order-details-page .rectangle-10 {
+    position: relative;
+    width: 424px;
+    height: 263px;
+    background-color: #7acbce1c;
+  }
+  
+  .order-details-page .payment-type-credit {
+    position: relative;
+    width: 262px;
+    height: 23px;
+    margin-top: -1px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .provider-visa-ending {
+    position: relative;
+    width: 375px;
+    height: 23px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #72787b;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .delivery-info-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    top: 812px;
+    left: 972px;
+  }
+  
+  .order-details-page .frame-11 {
+    display: flex;
+    flex-direction: column;
+    width: 291px;
+    align-items: flex-start;
+    gap: 21px;
+    position: absolute;
+    top: 104px;
+    left: 14px;
+  }
+  
+  .order-details-page .text-wrapper-25 {
+    position: relative;
+    width: 374px;
+    height: 23px;
+    margin-top: -1px;
+    margin-right: -83px;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #72787b;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .text-wrapper-26 {
+    position: relative;
+    width: 375px;
+    height: 21px;
+    margin-right: -84px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #72787b;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.3px;
+    white-space: nowrap;
+  }
+  
+  .order-details-page .transport {
+    position: absolute;
+    width: 87px;
+    height: 53px;
+    top: -69px;
+    left: 144px;
+  }
+  
+  .order-details-page .overlap-group {
+    position: relative;
+    height: 53px;
+  }
+  
+  .order-details-page .rectangle-11 {
+    position: absolute;
+    width: 58px;
+    height: 45px;
+    top: 0;
+    left: 0;
+  }
+  
+  .order-details-page .rectangle-copy {
+    position: absolute;
+    width: 32px;
+    height: 37px;
+    top: 8px;
+    left: 55px;
+  }
+  
+  .order-details-page .ellipse {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 34px;
+    left: 9px;
+    border-radius: 9.42px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .order-details-page .ellipse-2 {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    top: 34px;
+    left: 59px;
+    border-radius: 9.42px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
