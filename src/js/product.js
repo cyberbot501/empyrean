@@ -1,20 +1,20 @@
-let menuIcon = document.querySelector("#menu-icon");
-let navlist = document.querySelector(".navlist");
+// let menuIcon = document.querySelector("#menu-icon");
+// let navlist = document.querySelector(".navlist");
 
-menuIcon.onclick = ()=>{
-    menuIcon.classList.toggle("bx-x");
-    navlist.classList.toggle("open");
-}
+// menuIcon.onclick = ()=>{
+//     menuIcon.classList.toggle("bx-x");
+//     navlist.classList.toggle("open");
+// }
 
-const observer = new IntersectionObserver((entries)=>{
-    entries.forEach((entry)=>{
-        if(entry.isIntersecting){
-            entry.target.classList.add("show-items");
-        }else{
-            entry.target.classList.remove("show-items");
-        }
-    });
-});
+// const observer = new IntersectionObserver((entries)=>{
+//     entries.forEach((entry)=>{
+//         if(entry.isIntersecting){
+//             entry.target.classList.add("show-items");
+//         }else{
+//             entry.target.classList.remove("show-items");
+//         }
+//     });
+// });
 
 
 
@@ -71,4 +71,19 @@ fetch("http://empyrean.washrytelaundry.com.ng/api/v1/products",
 });
 
 
-   
+// Retrieve the username from the cookie
+const username = getCookie('username');
+
+// Display the username on the page
+if (username) {
+    document.body.innerHTML += `<p>Hello, ${username}!</p>`;
+} else {
+    // Redirect to the login page if the username is not found
+    window.location.href = '/login';
+}
+
+// Function to get a cookie by name
+function getCookie(name) {
+    const match = document.cookie.match(new RegExp(`${name}=([^;]+)`));
+    return match ? match[1] : null;
+}

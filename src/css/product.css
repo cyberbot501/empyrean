@@ -407,31 +407,11 @@
         top: -1000px;
         right: 0;
         left: 0;
-        flex-direction: column;
         background-color: var(--bg-color);
         text-align: left;
         padding: 0 5%;
         transition: all .45s ease;
-        margin-top: -1000px;
-    }
-
-    #menu-icon{
-        display: block;
-        transition: all .4s ease;
-    }
-
-    #menu-icon.bx-x{
-        transform: rotate(-180deg);
-    }
-
-    .navlist a{
-        display: block;
-        padding-bottom: 1rem;
-        font-size: 1rem;
-    }
-
-    .navlist.open{
-        top: 100%;
+        font-size: 15px;
     }
 
     .product-container{
@@ -464,6 +444,30 @@
         margin: auto;
         
     }
+
+    .customzed-container .product-containers .products{
+        border: 1px solid var(--product-bg);
+        background: var(--product-bg);
+        border-radius: 28px;
+        height: 700px;
+        row-gap: 1rem;
+    }
+    
+    .customzed-container .product-containers .products .product-grid .star img{
+        width: 20px;
+        height: 20px;
+        margin-top: 190px;
+    }
+    
+
+    .customzed-container .next{
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        margin-top: 328rem;
+        margin-bottom: 7rem;
+    }
+
     .subscribe{
         border: 1px solid var(--nav-bg);
         height: 200px;
@@ -490,15 +494,29 @@
     
     .footer .footer-u{
         margin-left: 1rem;
+        justify-content: center;
     }
 
     .welcome{
         height: 100vh;
         width: 100%;
-        display: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
         grid-gap: 1rem;
-        margin-top: 10rem;
+        margin-top: 15rem;
+        margin-bottom: 10rem;
+        margin-left: -10px;
+        text-align: center;
+    }
+
+    .welcome .top-content{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin-top: 20px;
+       margin-left: -10rem;
     }
 
     .top-image img{
@@ -506,8 +524,5 @@
         width: 100%;
     }
 
-    .top-content{
-        margin-right:;
-    }
 }
 
