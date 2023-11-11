@@ -17,7 +17,7 @@
     width: 1294px;
     height: 1176px;
     top: 66px;
-    left: 77px;
+    left: 10px;
     background-color: #7acbce1c;
   }
   
@@ -36,7 +36,7 @@
   
   .admin-order .frame {
     display: flex;
-    width: 224px;
+    width: 100px;
     align-items: center;
     justify-content: center;
     gap: 7.66px;
@@ -73,10 +73,11 @@
     padding: 13.02px 16.08px 13.02px 19.14px;
     position: absolute;
     top: 21px;
-    left: 1128px;
+    left: 1108px;
     background-color: #7acbce96;
     border-radius: 6.12px;
     overflow: hidden;
+    border: none;
   }
   
   .admin-order .text-wrapper-2 {
@@ -94,13 +95,13 @@
   
   .admin-order .frame-2 {
     display: inline-flex;
-    height: 49px;
+    height: 27px;
     align-items: center;
     gap: 68.91px;
     padding: 6.89px 14.55px;
     position: absolute;
     top: 21px;
-    left: 355px;
+    left: 340px;
     background-color: #ffffff;
     border-radius: 6.12px;
     overflow: hidden;
@@ -117,6 +118,7 @@
     font-size: 19.1px;
     letter-spacing: 0;
     line-height: 22.3px;
+    border: none;
   }
   
   .admin-order .chevron-down {

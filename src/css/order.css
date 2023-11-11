@@ -18,7 +18,7 @@
     width: 1351px;
     height: 668px;
     top: 63px;
-    left: 45px;
+    left: 0px;
   }
   
   .order-details-page .rectangle {
@@ -399,7 +399,7 @@
     align-items: flex-start;
     position: absolute;
     top: 307px;
-    left: 889px;
+    left: 860px;
   }
   
   .order-details-page .order-2 {
@@ -608,7 +608,7 @@
     gap: 10px;
     position: absolute;
     top: 812px;
-    left: 46px;
+    left: 0px;
   }
   
   .order-details-page .rectangle-9 {
@@ -674,7 +674,7 @@
     gap: 10px;
     position: absolute;
     top: 812px;
-    left: 509px;
+    left: 460px;
   }
   
   .order-details-page .rectangle-10 {
@@ -718,7 +718,7 @@
     gap: 10px;
     position: absolute;
     top: 812px;
-    left: 972px;
+    left: 910px;
   }
   
   .order-details-page .frame-11 {
